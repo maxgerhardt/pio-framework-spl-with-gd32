@@ -177,12 +177,6 @@ g_pfnVectors:
 *
 *******************************************************************************/
 
-.weak _estack
-.thumb_set _estack,Default_Handler
-
-.weak Reset_Handler
-.thumb_set Reset_Handler,Default_Handler
-
 .weak NMI_Handler
 .thumb_set NMI_Handler,Default_Handler
 
